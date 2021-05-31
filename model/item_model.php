@@ -27,6 +27,7 @@ function get_item($dbh, $item_id, $is_open = false)
 
   return fetch_query($dbh, $sql, [$item_id]);
 }
+
 //アイテム一覧情報取得
 function get_item_list($dbh, $is_open = false, $sort = null, $category_id = null) 
 {
