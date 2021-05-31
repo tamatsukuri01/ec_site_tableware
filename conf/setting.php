@@ -9,6 +9,7 @@ define('VIEW_PATH',$_SERVER['DOCUMENT_ROOT'] . '/../view/');
 define('MODEL_PATH',$_SERVER['DOCUMENT_ROOT'] . '/../model/');
 define('IMG_PATH', '/assets/img/' );
 define('IMAGE_DIR', $_SERVER['DOCUMENT_ROOT'] . '/assets/img/' );
+define('STYLESHHET_PATH',$_SERVER['DOCUMENT_ROOT'] . '/assets/css/');
 
 define('HOME_URL','/home.php');
 define('ADMIN_URL','/admin.php');

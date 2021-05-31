@@ -3,7 +3,7 @@
   <head>
     <title>商品一覧</title>
     <?php include VIEW_PATH .'templates/head.php'; ?>
-    <link rel="stylesheet" href="/assets/css/top.css">
+    <link rel="stylesheet" href="<?php print(STYLESHHET_PATH. 'top.css'); ?>">
   </head>
   <body>
     <?php include VIEW_PATH .'templates/header.php'; ?>
