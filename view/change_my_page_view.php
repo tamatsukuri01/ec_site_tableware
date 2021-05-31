@@ -62,7 +62,7 @@
         <div class="row justify-content-center">
           <div class="col-md-8">
             <div class="card">
-              <h2 class="card-header text-left">社員登録</h2>
+              <h2 class="card-header text-left">従業員登録</h2>
               <div class="card-body">
                 <form method="post" action="change_my_page_process.php">
                   <div class="form-group row">

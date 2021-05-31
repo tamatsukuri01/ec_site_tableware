@@ -5,6 +5,7 @@ require_once '../conf/setting.php';
 require_once MODEL_PATH.'db.php';
 require_once MODEL_PATH.'function.php';
 require_once MODEL_PATH.'admin_model.php';
+require_once MODEL_PATH.'cart_model.php';
 require_once MODEL_PATH.'item_model.php';
 require_once MODEL_PATH.'validate_model.php';
 

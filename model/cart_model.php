@@ -138,7 +138,7 @@ function update_cart_end_user($dbh, $end_user_id, $user_id, $staff_id)
   UPDATE
     carts
   SET
-    end_user_id = ?
+    end_user_id = ? ,
     updatedate = now()
   WHERE
     user_id = ?

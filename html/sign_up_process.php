@@ -33,5 +33,5 @@ if(is_valid_csrf_token($token)) {
   set_error('不正な操作が行われました。');
 }
 
-redirect_to(SIGNUP_URL);
+redirect_to(SIGN_UP_URL);
 ?>

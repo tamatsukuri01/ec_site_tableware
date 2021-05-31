@@ -25,7 +25,7 @@
               <tbody>
                 <tr>
                   <td><?php print h($delivery_address['end_user_name']); ?></td>
-                  <td><?php print h($delivery_address['end__user_post_code']); ?></td>
+                  <td><?php print h($delivery_address['end_user_post_code']); ?></td>
                   <td><?php print h($delivery_address['end_user_address']); ?></td>
                   <td><?php print h($delivery_address['end_user_tell']); ?></td>
                 </tr>

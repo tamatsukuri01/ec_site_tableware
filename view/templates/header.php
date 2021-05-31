@@ -25,6 +25,8 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="<?php print(MY_PAGE_URL) ?>">登録情報</a></li>
+              <li><a class="dropdown-item" href="<?php print(END_USER_URL) ?>">届け先情報</a></li>
+              <li><a class="dropdown-item" href="<?php print(CHANGE_MY_PAGE_URL) ?>">従業員登録</a></li>
               <li><a class="dropdown-item" href="<?php print(ORDERS_URL) ?>">購入履歴</a></li>
             </ul>
           </li>

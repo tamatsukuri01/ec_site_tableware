@@ -56,9 +56,9 @@
           </div>
           <div class="col-md-2">
             <h5>ユーザーとしてログイン</h5>
-            <p>御社名：</p>
-            <p>お名前：</p>
-            <p>パスワード：</p>
+            <p>御社名：test株式会社</p>
+            <p>お名前：testuser</p>
+            <p>パスワード：password</p>
           </div>
         </div>
       </div>
