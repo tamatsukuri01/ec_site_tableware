@@ -9,7 +9,7 @@ define('VIEW_PATH',$_SERVER['DOCUMENT_ROOT'] . '/../view/');
 define('MODEL_PATH',$_SERVER['DOCUMENT_ROOT'] . '/../model/');
 define('IMG_PATH', '/assets/img/' );
 define('IMAGE_DIR', $_SERVER['DOCUMENT_ROOT'] . '/assets/img/' );
-define('STYLESHHET_PATH',$_SERVER['DOCUMENT_ROOT'] . '/assets/css/');
+define('STYLESHHET_PATH',  '/assets/css/');
 
 define('HOME_URL','/home.php');
 define('ADMIN_URL','/admin.php');
@@ -34,6 +34,7 @@ define('END_USER_URL','/end_user.php');
 define('REGIST_END_USER_URL','/regist_end_user.php');
 define('RANKING_URL', '/ranking.php');
 
+define('MAX_ITEM_VIEW' , 9);
 define('NAME_LENGTH_MIN' , 1);
 define('NAME_LENGTH_MAX' , 10);
 define('USER_PASSWORD_LENGTH_MIN' , 6);
