@@ -47,6 +47,20 @@
             </div>
           </div>
         </div>
+        <div class="row justify-content-center">
+          <div class="col-md-2">
+            <h5>管理者としてログイン</h5>
+            <p>御社名：admin</p>
+            <p>お名前：admin</p>
+            <p>パスワード：admin</p>
+          </div>
+          <div class="col-md-2">
+            <h5>ユーザーとしてログイン</h5>
+            <p>御社名：</p>
+            <p>お名前：</p>
+            <p>パスワード：</p>
+          </div>
+        </div>
       </div>
     </main>
   </body>
