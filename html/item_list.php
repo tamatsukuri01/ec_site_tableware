@@ -18,8 +18,6 @@ $login_user = get_login_user($dbh);
 $persent = get_user_persent($login_user['persent']);
 $token = get_csrf_token();
 
-$categories = get_categories($dbh);
-
 $sort = get_get('sort');
 
 $items = get_item_list($dbh, true, $sort);
