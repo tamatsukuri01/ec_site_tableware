@@ -43,7 +43,7 @@
                     <h4 class="card-title"><?php print h($item['name']); ?></h4>
                     <h5>上代：<?php print number_format( h($item['price'])); ?>円</h5>
                     <h5>下代：<?php print number_format(h($item['price']) * $persent); ?>円</h5>
-                    <form method="get" action="/item_data.php">
+                    <form method="get" action="item_data.php">
                       <input type="submit" value="商品詳細" class="btn btn-primary">
                       <input type="hidden" name="item_id" value="<?php print h($item['item_id']); ?>">
                     </form>

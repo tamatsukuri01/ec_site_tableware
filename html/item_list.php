@@ -20,6 +20,7 @@ $token = get_csrf_token();
 
 $sort = get_get('sort');
 
+$categories = get_categories($dbh);
 $items = get_item_list($dbh, true, $sort);
 
 include_once VIEW_PATH.'item_list_view.php';
