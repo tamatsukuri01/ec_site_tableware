@@ -22,7 +22,7 @@ function regist_company($dbh, $company_name, $user_name, $post_code, $address, $
     set_error('会員登録に失敗しました。<br>お手数ですが管理者までご連絡ください');
     return false;
   }
-  if(insert_end_users($dbh, $user_id, $user_name, $post_code, $address, $user_tell) === false) {
+  if(insert_end_users($dbh, $user_id, $company_name, $post_code, $address, $user_tell) === false) {
     set_error('届け先の登録に失敗しました。<br>お手数ですが管理者までご連絡ください');
     return false;
   }
