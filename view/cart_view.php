@@ -40,7 +40,7 @@
                   </td>
                   <td class="text-nowrap">
                     <form method="post" action="cart_change_amount.php">
-                      <input type="number" name="amount" class="form-control" style="width: 80px;"  value="<?php print h($cart_item['amount']); ?>">個
+                      <input type="number" name="amount" class="form-control" style="width: 80px;" min="1"   value="<?php print h($cart_item['amount']); ?>">個
                       <input type="hidden" name="sql_kind" value="change_amount">
                       <input type="hidden" name="item_id" value="<?php print h($cart_item['item_id']); ?>">
                       <input type="hidden" name="token" value="<?php print $token; ?>">
